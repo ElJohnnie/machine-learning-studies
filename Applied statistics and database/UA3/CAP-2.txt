@@ -1,0 +1,11 @@
+    Dentro do teorema de CAP, os sistemas CA possuem propriedades ACID e
+têm forte consistência, porém não suportam falhas de partição. Já os sistemas
+AP possuem propriedades BASE, sendo sistemas com alta disponibilidade e
+tolerantes a falhas de partição. Existem, ainda, os sistemas CP, que possuem
+consistência forte e são tolerantes a falhas de partição (BREWER, 2012).
+    É importante ressaltar que outros teoremas surgiram para complementar
+o teorema CAP, como é o caso do teorema de PACELC. Esse teorema afirma
+que, no caso de uma partição de rede (P) em um sistema distribuído, é preciso
+escolher entre disponibilidade (A) e consistência (C) (assim como no teorema
+CAP). No entanto, mesmo se o sistema estiver funcionando corretamente (E),
+será preciso escolher entre latência (L) e consistência (C) (GOLAB, 2018).

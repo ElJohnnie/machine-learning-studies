@@ -1,0 +1,15 @@
+NoSQL (Not Only SQL) é uma abordagem de armazenamento de dados que difere dos bancos de dados relacionais tradicionais, sendo mais flexível e escalável para diferentes tipos de dados. Existem vários tipos de armazenamento NoSQL, cada um com suas características e implementações notáveis:
+
+- Bancos de Dados de Documentos: Armazenam dados em documentos flexíveis, como JSON ou BSON. Exemplos: MongoDB (alta performance, escalabilidade horizontal), Couchbase (cache e armazenamento), RavenDB (otimizado para leitura e consulta).
+
+- Bancos de Dados de Colunas: Armazenam dados em colunas, ideal para consultas analíticas. Exemplos: Apache Cassandra (escalabilidade, alta disponibilidade), HBase (armazenamento em grande escala), ScyllaDB (compatível com Cassandra).
+
+- Bancos de Dados de Grafos: Modelam dados como nós e arestas, ideais para relacionamentos complexos. Exemplos: Neo4j (consultas rápidas de grafo), Amazon Neptune (grafo em nuvem), JanusGraph (flexibilidade de backend).
+
+-Armazenamento de Chave-Valor: Armazena dados como pares de chave e valor, otimizado para alta velocidade e escalabilidade. Exemplos: Redis (cache, tempo real), Amazon DynamoDB (gerenciamento de dados), Riak (disponibilidade e resiliência).
+
+- Bancos de Dados de Séries Temporais: Projetados para armazenar e consultar dados de séries temporais, como dados de sensores e logs. Exemplos: InfluxDB (alta taxa de gravação), TimescaleDB (escalabilidade de séries temporais), OpenTSDB (armazenamento de séries temporais em grande escala).
+
+- Armazenamento de Objetos: Armazena objetos binários, comumente usado em armazenamento em nuvem. Exemplos: Amazon S3 (armazenamento escalável), Google Cloud Storage (gerenciamento de objetos), MinIO (armazenamento de objetos de código aberto).
+
+A escolha da implementação depende das necessidades específicas do projeto, como tipo de dados, escalabilidade, latência e requisitos de consulta. Cada implementação possui suas vantagens e desvantagens, portanto, é importante avaliar cuidadosamente os requisitos antes de selecionar a solução adequada.

@@ -1,0 +1,5 @@
+Padrão de resposta esperado
+
+a) O tipo de banco de dados mais adequado para a empresa é um banco de dados orientado a documentos, dando a flexibilidade que o negócio precisa para utilizar campos customizados, sem a necessidade de uma tabela auxiliar para cadastro dos campos, além de permitir que buscas sejam feitas em cima desses campos customizados (sem necessidade de fazer joins). Além disso, um banco de dados orientado a documentos, como o MongoDB, tem replicação e sharding automáticos, permitindo que o banco de dados consiga crescer com o crescimento da empresa, comportando cada vez mais dados e um volume maior de requisições.
+
+b) Sim. Mas ela precisaria particionar os dados desse banco de dados, criando shards dos dados. Esaa técnica também necessitaria de alterações profundas no código da aplicação, para que ela consiga saber em qual shard (máquina) os dados estão armazenados.
