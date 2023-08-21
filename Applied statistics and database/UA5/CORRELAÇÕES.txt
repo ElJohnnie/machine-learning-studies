@@ -1,0 +1,15 @@
+
+Correlações em análises de dados referem-se à relação estatística entre duas ou mais variáveis. Uma correlação indica se existe uma associação ou padrão entre as mudanças nas variáveis, ou seja, se elas tendem a se mover juntas de alguma forma.
+
+Existem dois tipos principais de correlações:
+
+Correlação Positiva: Quando as mudanças em uma variável estão relacionadas a mudanças na mesma direção em outra variável. Isso significa que à medida que uma variável aumenta, a outra também tende a aumentar, e quando uma diminui, a outra tende a diminuir.
+
+Correlação Negativa: Quando as mudanças em uma variável estão relacionadas a mudanças na direção oposta em outra variável. Isso implica que à medida que uma variável aumenta, a outra tende a diminuir, e vice-versa.
+
+A medida mais comum para quantificar a intensidade e a direção da correlação entre duas variáveis é o coeficiente de correlação, geralmente representado como "r". O coeficiente de correlação varia de -1 a 1:
+
+Um valor de r próximo a +1 indica uma correlação positiva forte.
+Um valor de r próximo a -1 indica uma correlação negativa forte.
+Um valor de r próximo a 0 indica uma correlação fraca ou ausente entre as variáveis.
+É importante notar que correlação não implica causalidade. Ou seja, mesmo que duas variáveis estejam correlacionadas, isso não significa necessariamente que uma causa a outra. Correlação indica apenas que existe uma relação estatística entre as variáveis. Estabelecer uma relação causal requer análises mais complexas e controle de outras variáveis potencialmente influentes.

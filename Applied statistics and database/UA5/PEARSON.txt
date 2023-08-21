@@ -1,0 +1,10 @@
+A correlação de Pearson é uma medida estatística que avalia a relação linear entre duas variáveis contínuas. Ela mede a intensidade e a direção dessa relação, indicando se as variáveis aumentam ou diminuem juntas de maneira proporcional.
+
+O coeficiente de correlação de Pearson (geralmente denotado como "r") varia de -1 a 1:
+
++1 indica uma correlação linear perfeita positiva, ou seja, à medida que uma variável aumenta, a outra também aumenta em uma proporção constante.
+-1 indica uma correlação linear perfeita negativa, significando que à medida que uma variável aumenta, a outra diminui em uma proporção constante.
+0 indica ausência de correlação linear entre as variáveis.
+O cálculo do coeficiente de correlação de Pearson envolve a média das duas variáveis e seus desvios padrão. Ele assume que as variáveis estão normalmente distribuídas e que a relação entre elas é linear. No entanto, a correlação de Pearson pode não capturar relações não lineares entre as variáveis.
+
+É importante lembrar que a correlação de Pearson mede apenas a relação linear entre as variáveis e não implica causalidade. Mesmo que duas variáveis estejam fortemente correlacionadas, isso não significa automaticamente que uma cause a outra.
