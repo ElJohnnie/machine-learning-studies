@@ -4,10 +4,10 @@ import pandas as pd
 
 # processo de coleta de dados
 nomes_das_colunas = ['user_id', 'item_id', 'rating', 'timestamp']
-df = pd.read_csv('filmes_ranking.data', sep='\t', names=nomes_das_colunas)
+df = pd.read_csv('./files/filmes_ranking.csv', sep='\t', names=nomes_das_colunas)
 
 # Agora é coletado os titulos dos filmes:
-titulos_dos_filmes = pd.read_csv("id_filmes_titulos")
+titulos_dos_filmes = pd.read_csv("./files/id_filmes_titulos.csv")
 print(titulos_dos_filmes.head())
 
 # Concatenar ambos 'csv'
