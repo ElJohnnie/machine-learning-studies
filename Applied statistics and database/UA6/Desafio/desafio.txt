@@ -1,0 +1,10 @@
+Com base nessas informações, responda: 
+​​​​​​​a) A normalização será necessária ou não? Justifique. 
+
+b) Em caso positivo, quais métodos poderão ser utilizados? Justifique.
+
+Respostas
+
+a) A normalização é necessária, porque os dados apresentam grandezas distintas, o que pode interferir na análise entre o tamanho e a quantidade de horas dormidas, por exemplo. A partir da normalização, além da distribuição normal dos dados, é possível compará-los em uma mesma escala, minimizando o viés causado por diferentes intervalos numéricos.
+
+b) À primeira vista, se não houver valores discrepantes, todos os métodos podem ser utilizados. O que determinará a escolha será o tipo de análise a ser realizada. Caso haja valores discrepantes, por outro lado, é importante repensar a utilização de métodos, como mínimo-máximo e escala decimal, sendo preferível aplicar o Z-score e a escala robusta.

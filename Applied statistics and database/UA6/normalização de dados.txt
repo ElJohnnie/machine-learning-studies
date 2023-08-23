@@ -1,0 +1,9 @@
+A normalização de dados é um processo crucial em análise de dados e modelhagem estatística, visando tornar as informações comáráveis e tratáveis de forma equitativa. Ela envolve ajustar os valores das variáveis para uma escala comum, eliminando disparidades que possam distorcer análises e algoritmos de aprendizado de máquina. Existem diversos métodos de normalização, cada um com seu propósito específico.
+
+Um dos métodos mais simples é a "min-max scaling", onde os valores são transformados para um intervalo entre 0 e 1, preservando as proporções originais. Outra abordagem é a "z-score normalization", que padroniza os valores pela subtração da média e divisão pelo desvio padrão, resultando em uma distribuição com média zero e desvio padrão um.
+
+Além disso, há a "normalização robusta", que utiliza a mediana e a mediana absoluta da diferença (MAD) para reduzir o impacto de valores extremos. Já, a "normalização por magnitude" mantém a direção dos vetores, mas ajusta seus comprimentos para uma constante predefinida. Para dados esparsos, a "normalização por escala máxima" divide cada valor pelo máximo valor absoluto na coleção de dados, mantendo a estrutura esparsa intacta.
+
+Por fim, em redes neurais e aprendizado profundo, a "normalização por lotes" é comum, onde as ativações são normalizadas ao longo de mini-lotes de dados, o que ajuda a acelerar a convergência do treinamento.
+
+Cada método de normalização possui vantagens e desvantagens, e a escolha depende do contexto e dos objetivos analíticos. O objetivo geral é garantir que as diferenças nas escalas dos dados não influenciem indevidamente as análises estatísticas ou os algoritmos de aprendizado de máquina, permitindo uma compreensão mais precisa e resultados melhores.
