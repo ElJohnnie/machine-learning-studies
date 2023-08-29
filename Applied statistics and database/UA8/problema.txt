@@ -1,0 +1,8 @@
+Dadas as premissas do problema, ou seja, que os dados não tem dependência significativas entre si e que apenas uma pequena percela de dados é necessária para executar sobre qualquer dado, a abordagem mais adequada provavelmente seria o paralelismo de dados.
+
+O paralelismo de dados é especialmente eficiente quando você tem um grande volume de dados independentes que precisam ser processados. Nesse cenário, você pode dividir os dados em várias partes e distribuí-las entre múltiplos processadores ou núcleos de processamento.
+Cada processador pode, então, executar a mesma operação nos seus dados atribuídos ao mesmo tempo, o que leva a um aumento significativo na eficiência de processamento. O fato de que não há dependência entre os dados significa que eles podem ser processados simultaneamente sem a necessidade de coordenação complexa entre as tarefas.
+
+Por outro lado, o paralelismo de controle envolve dividir uma tarefa em sub-atividades distintas e executá-las simultaneamente em diferentes processadores. Isso é mais apropriado quando há dependência entre as ações, ou seja, quando as tarefas precisam ser executadas em uma ordem específica.
+
+Dado que seu problema envolve um grande volume de dados sem dependência significativas entre eles, o paralelismo de dados é mais vantajoso. Ele permite uma distribuição eficiente do processamento e a exploração total do poder de processamento de vários núcleos ou processadores, resultando em um tempo de processamento reduzio e maior desempenho.
