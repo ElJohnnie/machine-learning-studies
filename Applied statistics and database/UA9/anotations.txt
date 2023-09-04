@@ -1,0 +1,18 @@
+Em CUDA, as threads são organizadas em warps, e cada warp é um grupo de 32 threads (não 64). Os threads dentro de um warp executam instruções simultaneamente, o que significa que todos os threads em um mesmo warp executam a mesma instrução ao mesmo tempo. Portanto, a resposta correta é a opção A.
+
+
+memória compartilhada é compartilhada pelos blocos de threads de um SM.
+
+Ao contrário da memória compartilhada, que possui um cache L1, a memória global não possui cache.
+
+ A memória compartilhada é um recurso de memória compartilhado por todos os blocos de threads dentro de um único Streaming Multiprocessor (SM) em uma GPU. Cada SM tem sua própria memória compartilhada, e ela não é compartilhada entre SMs.
+
+A memória global é acessada por todas as threads em todas as SMs e é de alto nível, portanto, geralmente possui caches, como o cache L1, para otimizar o desempenho de leitura e gravação. Em contraste, a memória compartilhada não tem cache L1 associado a ela.
+
+Agora, para as outras afirmações:
+
+A memória compartilhada é mais rápida para a comunicação entre threads do que a memória global. A memória compartilhada é de baixa latência e alta largura de banda, projetada para comunicação rápida entre threads de um bloco.
+
+ A memória global tem um espaço de armazenamento muito maior do que a memória compartilhada. A memória global é usada para armazenar dados que são acessados por todas as threads em todas as SMs, enquanto a memória compartilhada é usada para compartilhar dados entre threads dentro de um bloco.
+
+A memória compartilhada é compartilhada apenas pelas threads dentro do mesmo bloco em um único SM, não por todos os SMs. Cada SM tem sua própria memória compartilhada.
