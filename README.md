@@ -1,3 +1,6 @@
+
+![image](https://github.com/ElJohnnie/machine-learning-postgraduate/assets/54804502/68d78338-0b92-4d29-824c-a428c06d8f00)
+
 # Machine Learning Postgraduate Studies Repository
 
 Welcome to my Machine Learning Postgraduate Studies repository! This repository serves as a comprehensive collection of my projects, notes, and resources during my pursuit of a postgraduate degree in machine learning. It is organized into various subjects and units of study to help you navigate and explore the content effectively.
