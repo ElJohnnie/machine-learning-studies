@@ -1,0 +1,15 @@
+Algoritmos genéticos são técnicas de otimização inspiradas na seleção natural. Eles operam em uma população de soluções candidatas, buscando encontrar a melhor combinação para resolver um problema. O processo envolve:
+
+Geração Inicial: Uma população inicial é criada aleatoriamente.
+
+Avaliação: Cada solução é avaliada com base em uma função de aptidão que quantifica o quão bem ela resolve o problema.
+
+Seleção: Soluções mais aptas têm maior probabilidade de serem selecionadas para reprodução.
+
+Cruzamento: Pares de soluções são combinados para criar descendentes, compartilhando características de ambos.
+
+Mutação: Ocasionalmente, características nas soluções são modificadas aleatoriamente.
+
+Substituição: A nova geração substitui a anterior.
+
+Esse ciclo de seleção, cruzamento e mutação continua até um critério de parada ser atingido (um número de gerações ou uma solução adequada). Algoritmos genéticos são amplamente usados em otimização, aprendizado de máquina e outras áreas de pesquisa, permitindo encontrar soluções eficazes para uma variedade de problemas.
