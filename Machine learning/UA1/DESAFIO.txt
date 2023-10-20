@@ -1,0 +1,37 @@
+O ambiente on-line utiliza diversas técnicas e ferramentas para aprender sobre o comportamento do usuário na web, com o objetivo de fornecer respostas mais próximas das preferências das pessoas que utilizam esse ambiente.
+
+Suponha que você é um especialista em IA e sua empresa foi contratada para efetuar assessoria em uma campanha política. A equipe do candidato quer que sua empresa desenvolva um sistema que realize previsões das chances de o candidato vencer a eleição, dentro de determinados cenários. Seu chefe resolveu utilizar técnicas de IA no sistema e, estudando o assunto, verificou que poderia utilizar as técnicas de regressão linear ou de rede neural artificial (RNA) para efetuar as previsões. Assim, solicitou que você apresente as seguintes sugestões:
+
+a) Elaborar uma pesquisa e efetuar a análise das duas técnicas. Fazer, no mínimo, 5 questões sobre cada uma delas.
+b) Quais tipos de dados devem ser utilizados na entrada do sistema?
+c) Qual será o tipo de saída?
+d) Qual método deve ser utilizado? Justifique.
+e) Informar se o sistema demandaria poder de processamento e de memória.
+
+a) Análise de Regressão Linear:
+
+O que é a regressão linear e como funciona?
+Quais são os pressupostos da regressão linear e como eles podem afetar a precisão das previsões em um cenário político?
+Quais são os principais passos envolvidos na implementação da regressão linear em um sistema de previsão política?
+Como a seleção de variáveis influencia a qualidade das previsões de regressão linear em campanhas eleitorais?
+Quais são as limitações da regressão linear em comparação com técnicas mais avançadas, como redes neurais artificiais?
+Análise de Rede Neural Artificial (RNA):
+
+O que é uma rede neural artificial e como ela se diferencia de outras técnicas de aprendizado de máquina?
+Quais são os principais tipos de redes neurais artificiais que podem ser usados para previsões em campanhas políticas?
+Como os hiperparâmetros, como o número de camadas ocultas e neurônios, afetam o desempenho de uma RNA em previsões eleitorais?
+Como as redes neurais artificiais lidam com dados não lineares e complexos, que são comuns em cenários políticos?
+Quais são os desafios de interpretabilidade e transparência das previsões geradas por uma RNA em comparação com a regressão linear?
+b) Tipos de Dados de Entrada:
+Os tipos de dados de entrada podem incluir variáveis como idade, gênero, histórico político, opiniões em questões específicas, preferências do eleitorado, dados demográficos, resultados de pesquisas de opinião, etc. Os dados devem ser relevantes para a eleição em questão e podem ser obtidos de pesquisas, registros eleitorais, enquetes e outros recursos.
+
+c) Tipo de Saída:
+O tipo de saída geralmente seria uma probabilidade ou pontuação que indica as chances de o candidato vencer a eleição. Pode ser uma classificação binária (vitória/derrota) ou uma pontuação contínua que reflete a probabilidade de vitória.
+
+d) Método a ser Utilizado - Justificação:
+A escolha entre regressão linear e rede neural artificial depende da complexidade dos dados e do objetivo da previsão. Regressão linear é uma técnica simples e interpretável, adequada quando os relacionamentos entre variáveis são em grande parte lineares e os dados são relativamente simples. No entanto, em cenários políticos, onde fatores são frequentemente não lineares e complexos, uma rede neural artificial pode ser mais apropriada. Redes neurais têm a capacidade de aprender padrões complexos e não lineares nos dados, o que pode resultar em previsões mais precisas.
+
+e) Demanda de Poder de Processamento e Memória:
+Redes neurais artificiais geralmente demandam mais poder de processamento e memória em comparação com a regressão linear. O treinamento de redes neurais pode ser computacionalmente intensivo, especialmente se forem usadas redes profundas com muitas camadas. Portanto, é importante considerar a infraestrutura de hardware adequada para implementar uma RNA. A regressão linear, por outro lado, é computacionalmente mais leve e requer menos recursos.
+
+Em resumo, se a complexidade dos dados e a necessidade de previsões precisas são altas, uma rede neural artificial pode ser a escolha preferida, desde que haja recursos de hardware adequados. Se os dados são mais simples e os relacionamentos entre as variáveis são predominantemente lineares, a regressão linear pode ser suficiente.
