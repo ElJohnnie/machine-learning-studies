@@ -1,0 +1,14 @@
+# Criando duas listas
+nomes = ['Alice', 'Bob', 'Charlie']
+idades = [25, 30, 35]
+
+# Usando zip para combinar as listas
+dados_combinados = zip(nomes, idades)
+
+# Convertendo o objeto zip para uma lista de tuplas
+lista_de_tuplas = list(dados_combinados)
+
+# Exibindo o resultado
+print(lista_de_tuplas)
+
+[('Alice', 25), ('Bob', 30), ('Charlie', 35)]
