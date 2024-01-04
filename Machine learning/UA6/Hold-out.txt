@@ -1,0 +1,13 @@
+"Hold-out" é uma técnica comum de amostragem usada em aprendizado de máquina e estatísticas. Essa técnica envolve a divisão do conjunto de dados em dois conjuntos distintos: um conjunto de treinamento e um conjunto de teste. A ideia principal é treinar o modelo no conjunto de treinamento e avaliá-lo no conjunto de teste para avaliar seu desempenho em dados não vistos.
+
+Os passos típicos do método "hold-out" são os seguintes:
+
+Divisão dos Dados: O conjunto de dados é dividido em dois conjuntos mutuamente exclusivos - o conjunto de treinamento e o conjunto de teste.
+
+Treinamento do Modelo: O modelo é treinado exclusivamente no conjunto de treinamento.
+
+Avaliação do Modelo: O desempenho do modelo é avaliado no conjunto de teste, que consiste em dados que o modelo não viu durante o treinamento.
+
+Essa abordagem é valiosa para verificar como bem o modelo generaliza para novos dados, uma vez que é avaliado em um conjunto de dados independente. No entanto, a eficácia do "hold-out" pode depender da representatividade dos conjuntos de treinamento e teste, bem como do tamanho total do conjunto de dados.
+
+A divisão típica pode ser 70-30, 80-20 ou 90-10, onde a maior parte dos dados é usada para treinamento e uma parte menor é reservada para teste. A escolha exata da proporção depende da quantidade total de dados disponíveis e da natureza específica do problema.
