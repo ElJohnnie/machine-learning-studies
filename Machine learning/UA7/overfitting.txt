@@ -1,0 +1,7 @@
+Overfitting é um fenômeno que ocorre durante o treinamento de um modelo de aprendizado de máquina quando o modelo aprende não apenas os padrões presentes nos dados de treinamento, mas também os ruídos e detalhes específicos desse conjunto de dados. Como resultado, o modelo se ajusta muito bem aos dados de treinamento, mas tem dificuldade em generalizar para novos dados que não faziam parte do conjunto de treinamento.
+
+O overfitting geralmente ocorre quando um modelo é muito complexo em relação à complexidade dos dados que está tentando modelar. Isso pode acontecer, por exemplo, quando se usa um modelo com muitos parâmetros em relação ao tamanho do conjunto de dados de treinamento.
+
+Sinais comuns de overfitting incluem um desempenho excelente nos dados de treinamento, mas um desempenho ruim em dados de validação ou teste. É como se o modelo "decorasse" os exemplos de treinamento, em vez de aprender padrões gerais que podem ser aplicados a novos dados.
+
+Para lidar com o overfitting, é comum usar técnicas de regularização, como a adição de termos de penalização nos parâmetros do modelo, ou técnicas de validação cruzada para avaliar o desempenho do modelo em dados não utilizados durante o treinamento. Essas abordagens ajudam a garantir que o modelo seja capaz de generalizar bem para novos dados, em vez de se ajustar excessivamente aos detalhes idiossincráticos do conjunto de treinamento.
