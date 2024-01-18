@@ -1,0 +1,18 @@
+Silhueta (Silhouette), Davies-Bouldin e Calinski-Harabasz são métricas de avaliação de clusters, utilizadas para avaliar a qualidade de agrupamentos em técnicas de aprendizado não supervisionado, como o clustering. Vou explicar cada uma delas:
+
+Silhueta (Silhouette):
+
+A Silhueta é uma métrica que mede quão bem um objeto se encaixa no seu próprio cluster em comparação com outros clusters.
+Para cada amostra, a Silhueta calcula a diferença média entre a distância intra-cluster (distância média para os outros pontos no mesmo cluster) e a distância média mais próxima em um cluster diferente.
+O valor da Silhueta varia de -1 a 1, onde um valor mais alto indica que o objeto está bem ajustado ao seu próprio cluster e mal ajustado aos clusters vizinhos.
+Davies-Bouldin:
+
+O índice Davies-Bouldin avalia a compactação e separação entre clusters.
+Ele calcula a média do índice de similaridade entre cada cluster e seu cluster mais próximo (o segundo cluster mais próximo).
+Quanto menor o valor do índice Davies-Bouldin, melhor, indicando clusters mais compactos e separados.
+Calinski-Harabasz:
+
+O índice Calinski-Harabasz é uma medida de quão bem definidos são os clusters.
+Ele compara a dispersão intra-cluster com a dispersão entre clusters.
+Quanto maior o índice, melhor, indicando clusters mais densos e bem definidos.
+Essas métricas são úteis para comparar diferentes métodos de clustering ou para ajustar hiperparâmetros em algoritmos de clustering. No entanto, é importante notar que nenhuma métrica é perfeita, e a escolha da métrica depende do contexto e das características específicas dos dados.
