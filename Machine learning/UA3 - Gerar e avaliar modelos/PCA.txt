@@ -1,0 +1,12 @@
+PCA (Principal Component Analysis), ou Análise de Componentes Principais, é uma técnica de redução de dimensionalidade amplamente utilizada em análise de dados e aprendizado de máquina. Ela é utilizada para identificar padrões nos dados e expressá-los em termos de suas principais componentes, ou seja, combinações lineares das variáveis originais.
+
+O objetivo do PCA é reduzir a dimensionalidade dos dados, mantendo o máximo de informação possível. Isso é feito projetando os dados originais em um novo espaço de menor dimensão, onde as novas variáveis, chamadas de componentes principais, são ortogonais entre si e capturam a maior parte da variância dos dados.
+
+As etapas básicas do PCA são:
+
+Centralizar os dados: Subtrair a média de cada variável para que os dados tenham média zero.
+Calcular a matriz de covariância ou matriz de correlação dos dados.
+Calcular os autovetores e autovalores da matriz de covariância ou matriz de correlação.
+Selecionar os autovetores correspondentes aos maiores autovalores, que são as componentes principais.
+Projetar os dados originais no novo espaço de características formado pelos autovetores selecionados.
+O PCA é frequentemente utilizado para visualização de dados, redução de ruído, compressão de dados e pré-processamento antes de aplicar algoritmos de aprendizado de máquina, entre outros. Ele é especialmente útil quando os dados possuem muitas variáveis ou quando há multicolinearidade entre elas.

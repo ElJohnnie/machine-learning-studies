@@ -1,0 +1,5 @@
+O erro quadrático relativo ao centróide é uma métrica utilizada no método de Elbow para determinar o número ideal de clusters em algoritmos de agrupamento, como o K-means. Ele é calculado como a soma dos quadrados das distâncias entre cada ponto de dado e o centróide do cluster ao qual ele foi atribuído.
+
+Quando você executa o algoritmo K-means para diferentes valores de K (número de clusters), o erro quadrático relativo ao centróide é calculado para cada valor de K. Em seguida, você pode plotar esses erros em relação a diferentes valores de K. O ponto no gráfico onde a redução no erro começa a diminuir acentuadamente é chamado de "cotovelo" (Elbow), e esse valor de K é frequentemente escolhido como o número ideal de clusters.
+
+O conceito por trás disso é que adicionar mais clusters além do ponto de cotovelo não leva a uma redução significativa no erro, enquanto ter menos clusters pode resultar em clusters muito grandes, o que pode não ser tão representativo dos dados. Portanto, o número de clusters no ponto de cotovelo é considerado um compromisso entre a complexidade do modelo e a sua capacidade de generalização.

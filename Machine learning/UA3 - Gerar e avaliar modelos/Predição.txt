@@ -1,0 +1,7 @@
+Uma predição, no contexto de aprendizado de máquina e ciência de dados, refere-se ao processo de usar um modelo treinado para fazer uma estimativa ou inferência sobre um novo conjunto de dados, para os quais não conhecemos a resposta correta.
+
+Quando treinamos um modelo de machine learning, estamos essencialmente ensinando-o a aprender padrões nos dados para fazer previsões ou tomar decisões. Após o treinamento, podemos usar esse modelo para fazer predições sobre novos dados que não foram vistos durante o treinamento.
+
+Por exemplo, se treinarmos um modelo de regressão linear para prever o preço de uma casa com base em suas características, como número de quartos, tamanho do lote, localização, etc., podemos usar esse modelo para prever o preço de uma nova casa que ainda não tenha sido vendida.
+
+Em essência, uma predição é uma estimativa ou suposição sobre um resultado futuro com base em dados históricos e padrões aprendidos pelo modelo durante o treinamento. A qualidade das predições depende da capacidade do modelo de generalizar bem para novos dados e capturar os padrões subjacentes nos dados de treinamento.
