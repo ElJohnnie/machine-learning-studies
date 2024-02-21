@@ -1,0 +1,19 @@
+O aprendizado de máquina trabalha com dados já existentes, dessa forma, pode aplicar a predição e construção do conhecimento. Já a mineração dos dados traz metodologias voltadas à extração de dados.
+
+A caracterização dos dados pode definir padrões para determinadas situações. O aprendizado de máquina precisa disso para construir o conhecimento sobre os dados e as informações. Quando ocorre o pré-processamento de dados, por meio da identificação dos objetos e seus respectivos conjuntos, qual técnica está sendo mencionada?​​​​​​​
+
+R - Na integração dos dados, além de haver a necessidade de identificação dos objetos, cada conjunto de dados pode representar diferentes atributos de um mesmo grupo de objetos. A eliminação manual de atributos pode acontecer quando alguns valores de atributos passam a ser irrelevantes para o contexto. Já a amostragem pode ocorrer por meio de uma representação dos dados originais. Dados desbalanceados é um fator observado quando o conjunto de dados apresenta valores irregulares. Por fim, a limpeza dos dados ocorre para evitar dados incompletos.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+A exploração de dados pode ocorrer por meio de medidas de distribuição, em que a média de um conjunto de valores é obtida.
+As medidas de distribuição podem ser representadas por médias e desvio padrão e são definidas em torno da média de um determinado conjunto de valores. Na maioria das vezes, são instanciações de alguma medida denominada momento. As medidas de localidade se referem a pontos de referências. Os dados multivariados possuem mais de um atributo de entrada. É nos dados univariados que o mesmo valor de um atributo pode ser detectado mais de uma vez. Por fim, o intervalo e a variância estão contidos nas medidas de espalhamento.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+As escalas intervalares permitem variações entre um intervalo, como exemplo pode-se citar a previsão da temperatura.
+
+As escalas caracterizam quais operações podem ser realizadas com os valores de cada atributo. A análise das características presentes em um conjunto de dados permite a descoberta de padrões e tendências, as quais podem fornecer informações valiosas que ajudem a compreender o processo gerador dos dados. A caracterização traz os tipos, os quais definem atributos representando quantidades e escalas, que podem ser intervalares e permitem variações entre intervalos. As escalas ainda podem ser nominais, quando os valores apresentados não trazem muitas informações; ordinais, relacionadas à ordem das categorias; e racionais, que trazem informações sobre o atributo.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Um algoritmo é responsável por determinar quais são os passos e como eles devem ser seguidos para resolver algum problema, por meio de um recurso computacional. No aprendizado de máquina, esses algoritmos aprendem por meio dos dados ou de conjunto de treinamento. Pode-se afirmar que uma aplicação prática do aprendizado de máquina é:
