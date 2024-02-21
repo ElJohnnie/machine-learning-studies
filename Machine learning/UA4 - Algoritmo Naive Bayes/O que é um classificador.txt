@@ -1,0 +1,1 @@
+O que é um classificador em machine learning? Um classificador é um algoritmo de machine learning que atribui objetos como membro de uma categoria ou grupo. Por exemplo, os classificadores são usados para detectar se um e-mail é spam ou se uma transação é fraudulenta.
