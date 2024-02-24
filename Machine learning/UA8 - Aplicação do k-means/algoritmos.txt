@@ -1,0 +1,5 @@
+K-means Full (ou padrão): Este é o algoritmo básico que descrevi anteriormente. Ele calcula as distâncias entre todos os pontos de dados e todos os centroides em cada iteração. Embora seja simples e fácil de entender, pode ser computacionalmente custoso, especialmente em conjuntos de dados grandes.
+
+K-means Elkan: O algoritmo Elkan é uma otimização do K-means padrão que reduz a quantidade de cálculos de distância necessários. Ele explora a desigualdade triangular para evitar o cálculo de distâncias redundantes, o que pode resultar em uma melhoria significativa no desempenho, especialmente em conjuntos de dados de alta dimensionalidade.
+
+K-means Auto: O algoritmo K-means Auto é uma extensão do K-means que automatiza a seleção do número ideal de clusters (K). Ele utiliza métodos de seleção de modelo, como o método do cotovelo (elbow method) ou critérios de informação, como o Critério de Informação de Akaike (AIC) ou o Critério de Informação Bayesiano (BIC), para determinar o número ótimo de clusters sem a necessidade de entrada manual.
