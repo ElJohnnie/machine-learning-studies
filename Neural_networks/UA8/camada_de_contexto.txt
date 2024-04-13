@@ -1,0 +1,7 @@
+Uma unidade de contexto em uma rede neural Elman ou Jordan é uma característica chave desses tipos de redes neurais recorrentes. Essas unidades são responsáveis por manter e atualizar a informação sobre o contexto das entradas anteriores durante o processamento da rede.
+
+Em uma rede neural Elman, as unidades de contexto são adicionadas à camada oculta da rede. Cada unidade de contexto recebe uma entrada do estado da camada oculta na etapa de tempo anterior e a mantém como um estado de memória para a próxima etapa de tempo. Isso permite que a rede mantenha informações sobre padrões temporais ou sequenciais em dados de entrada.
+
+Por outro lado, em uma rede neural Jordan, as unidades de contexto são adicionadas à camada de saída da rede. Elas recebem uma entrada do estado da camada de saída na etapa de tempo anterior e a utilizam para influenciar as previsões ou saídas da rede na próxima etapa de tempo. Isso pode ser útil para tarefas que exigem a consideração do contexto das previsões anteriores para fazer previsões mais precisas.
+
+Em resumo, as unidades de contexto em redes neurais Elman e Jordan desempenham um papel fundamental na capacidade dessas redes de modelar e entender padrões temporais em dados sequenciais. Elas ajudam a capturar e reter informações sobre o contexto das entradas anteriores, permitindo que a rede faça previsões ou classificações mais informadas com base em sequências temporais de dados.
