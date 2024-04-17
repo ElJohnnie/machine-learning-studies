@@ -1,0 +1,28 @@
+Após o treinamento de uma rede neural, os pesos e os viéses são os principais componentes que capturam o aprendizado da rede. Esses parâmetros são ajustados durante o treinamento para minimizar a função de perda e fazer com que a rede produza saídas desejadas para entradas específicas. Portanto, para armazenar o aprendizado e utilizar mais tarde em novos aprendizados ou inferências, geralmente os pesos e viéses são salvos em algum tipo de armazenamento persistente, como arquivos no disco.
+
+A arquitetura de software para lidar com isso pode ser organizada de várias maneiras, mas geralmente envolve os seguintes componentes:
+
+Gerenciamento de modelos:
+
+Um componente para definir a arquitetura da rede neural, incluindo a estrutura das camadas, as funções de ativação, etc.
+Pode incluir a definição de modelos usando bibliotecas de deep learning como TensorFlow, PyTorch, Keras, etc.
+Treinamento:
+
+Um módulo responsável por treinar o modelo usando dados de treinamento, ajustando os pesos e viéses para minimizar a função de perda.
+Pode envolver algoritmos de otimização, como gradiente descendente, backpropagation, etc.
+Persistência de modelos:
+
+Um sistema para salvar os parâmetros do modelo (pesos e viéses) em algum tipo de armazenamento persistente após o treinamento.
+Isso pode envolver a serialização dos parâmetros do modelo em arquivos, bancos de dados, ou até mesmo em sistemas de armazenamento em nuvem.
+Carregamento de modelos:
+
+Um componente para carregar os parâmetros do modelo a partir do armazenamento persistente quando necessário para inferência ou re-treinamento.
+Isso pode ser feito durante o início do sistema ou conforme necessário, dependendo do tempo de inicialização e dos requisitos de memória.
+Inferência:
+
+Um módulo para utilizar o modelo treinado para fazer previsões ou inferências sobre novos dados.
+Isso envolve alimentar os dados de entrada para a rede neural e obter as saídas correspondentes usando os pesos e viéses armazenados.
+Atualização do modelo (Opcional):
+
+Um processo para atualizar ou re-treinar o modelo com novos dados, se necessário.
+Isso pode envolver carregar os parâmetros do modelo existente, alimentar novos dados de treinamento, reajustar os pesos e viéses e salvar novamente os parâmetros atualizados.
